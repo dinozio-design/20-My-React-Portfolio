@@ -1,5 +1,5 @@
 import React from 'react';
-import myLogo from '../assets/images/myAvaLookRight.PNG'
+import myLogo from '../assets/images/myAvaLookRight.png'
 export default function Header() {
   return (
     <div>
