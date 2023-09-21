@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='mt-4'>
       <h2 >About Page</h2>
-      <div class="m-3 px-2">
+      <div className="m-3 px-2">
         <article className='text-start text-wrap mb-4 '>
           This is where you can know a little more about me.
           <p className='mt-3'>I am an inquisitive Engineer with a passion for AI solutions. I am redirecting my focus to Backend programming, DB architecture (SQL/NoSQL), and Computer Vision. Feel free to look me up on <a href="https://www.linkedin.com/in/sam-azimi-p-eng">LinkeIn</a>. I am open to connect, and I am always happy to help.</p>
