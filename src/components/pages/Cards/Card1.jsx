@@ -19,18 +19,20 @@ const styles = {
     padding: 25,
   },
   imgPlace: {
-    maxWidth: '100%',
+    maxWidth: '80%',
   },
   icon: {
-    scale: '20%',
+    width: 30,
+    height: 30,
   },
 };
 
+// since I am short in time I will just hard code it here, a better approach will be to iterate through an array of objects and only call the Card comnponent once... will do it in the next edit after submission
 const project = {
   title: 'My Best Work Yet',
   description: 'This app is all about React!',
-  deployLink: '',
-  gitHubLink: '',
+  deployLink: 'https://dinozio-design.github.io/20-My-React-Portfolio/',
+  gitHubLink: 'https://github.com/dinozio-design/20-My-React-Portfolio',
 }
 
 // In `Card`, we can assign a style from an object by using curly braces
@@ -43,13 +45,17 @@ function Card1() {
         <div className="card" id="card-1">
           <figure className="card-cont">
             <img style={styles.imgPlace} className="imgPlace" src={IMAGES.image1} alt="placeholder image" />
-            <hr/>
-            <p>{project.description}</p>
-             <a href='https://github.com/dinozio-design/20-My-React-Portfolio'>
-             <img style={styles.icon} src={IMAGES.githubmark} alt="GitHub Logo"/>
-             </a>
-
           </figure>
+          <hr />
+          <p>{project.description}</p>
+          <div className="d-flex p-2 flex-row">
+            <a className="p-2" href={project.gitHubLink}>
+              <img  style={styles.icon} src={IMAGES.githubmark} alt="GitHub Logo" />
+            </a>
+            <a className="p-2" href={project.deployLink}>
+              <img style={styles.icon} src={IMAGES.deploymark} alt="Deployed Logo" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
