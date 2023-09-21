@@ -16,7 +16,7 @@ const styles = {
     padding: '0 20px',
   },
   content: {
-    padding: 20,
+    padding: 25,
   },
 };
 
