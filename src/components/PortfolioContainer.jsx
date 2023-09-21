@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -33,6 +34,7 @@ export default function PortfolioContainer() {
 
             {/* next we call the renderPage methopde which will return a component */}
             {renderPage()}
+            <Footer/>
         </div>
     );
 }
