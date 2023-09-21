@@ -4,8 +4,8 @@ import Display from './Display';
 
 export default function Project() {
   return (
-    <div>
-      <h1>Project Page</h1>
+    <div className='mt-4'>
+      <h2>Project Page</h2>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
