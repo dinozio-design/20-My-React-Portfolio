@@ -8,11 +8,12 @@ const styles = {
     background: '#e8eaf6',
   },
   heading: {
-    background: '#3f51b5',
+    background: 'rgb(240, 156, 0)',
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
-    color: 'white',
+    fontWeight: 'bold',
+    textShadow: 'white 2px 2px 5px',
     padding: '0 20px',
   },
   content: {
