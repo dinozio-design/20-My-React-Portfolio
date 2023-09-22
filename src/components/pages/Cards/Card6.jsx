@@ -8,11 +8,13 @@ const styles = {
     background: '#e8eaf6',
   },
   heading: {
-    background: '#3f51b5',
+    background: 'rgb(240, 156, 0)',
+    color: '#e8eaf6',
+    textShadow: 'black -1px 1px 1px',
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
-    color: 'white',
+    fontWeight: 'bold',
     padding: '0 20px',
   },
   content: {
@@ -29,10 +31,10 @@ const styles = {
 
 // since I am short in time I will just hard code it here, a better approach will be to iterate through an array of objects and only call the Card comnponent once... will do it in the next edit after submission
 const project = {
-  title: 'My Best Work Yet',
-  description: 'This app is all about React!',
-  deployLink: 'https://dinozio-design.github.io/20-My-React-Portfolio/',
-  gitHubLink: 'https://github.com/dinozio-design/20-My-React-Portfolio',
+  title: 'My First Portfolio',
+  description: 'This app is all about CSS. This was my very first portfolio, written in HTML and hardcoded with CSS styles',
+  deployLink: 'https://dinozio-design.github.io/02-My-Portfolio-Advanced-CSS',
+  gitHubLink: 'https://github.com/dinozio-design/02-My-Portfolio-Advanced-CSS',
 }
 
 // In `Card`, we can assign a style from an object by using curly braces
