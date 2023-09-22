@@ -1,7 +1,6 @@
 import React from 'react';
 
 import IMAGES from './Images';
-
 const styles = {
   card: {
     margin: 20,
@@ -9,11 +8,12 @@ const styles = {
   },
   heading: {
     background: 'rgb(240, 156, 0)',
+    color: '#e8eaf6',
+    textShadow: 'black 0px 1px -1px',
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
     fontWeight: 'bold',
-    textShadow: 'white 2px 2px 5px',
     padding: '0 20px',
   },
   content: {
@@ -30,10 +30,10 @@ const styles = {
 
 // since I am short in time I will just hard code it here, a better approach will be to iterate through an array of objects and only call the Card comnponent once... will do it in the next edit after submission
 const project = {
-  title: 'My Best Work Yet',
-  description: 'This app is all about React!',
-  deployLink: 'https://dinozio-design.github.io/20-My-React-Portfolio/',
-  gitHubLink: 'https://github.com/dinozio-design/20-My-React-Portfolio',
+  title: 'CRM Light',
+  description: 'This is a group project based on elementary HTML, CSS, and frameworks.',
+  deployLink: 'https://dinozio-design.github.io/CRM-lite/',
+  gitHubLink: 'https://github.com/dinozio-design/CRM-lite',
 }
 
 // In `Card`, we can assign a style from an object by using curly braces
@@ -43,7 +43,7 @@ function Card5() {
     <div style={styles.card}>
       <div style={styles.heading}>{project.title}</div>
       <div style={styles.content}>
-        <div className="card" id="card-1">
+        <div className="card">
           <figure className="card-cont">
             <img style={styles.imgPlace} className="imgPlace" src={IMAGES.image5} alt="placeholder image" />
           </figure>

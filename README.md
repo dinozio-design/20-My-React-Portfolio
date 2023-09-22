@@ -81,12 +81,12 @@ If you have any questions, you can email them to me.
 
 ## Deployment
 
-<!-- 1. You can find the video walkthrough of a typical user flow of the application **here:** <br>
-[13-E-Commerce-Back-End-ORM - vid 1 -  starting and seeding db + Category CRUDs](https://drive.google.com/file/d/1e2YqTp9xwSMpd87m7aM-Vn1WWebHmbXy/view)<br>
-[13-E-Commerce-Back-End-ORM - vid 2 balance of CRUDs for products and tags](https://drive.google.com/file/d/1sNlSMLtALR2E1cHLw3cr7YZUAiKvK0Jh/view)<br> -->
+1. You can find the link to the deployed application **here:** <br>
+[https://dinozio-design.github.io/20-My-React-Portfolio/](https://dinozio-design.github.io/20-My-React-Portfolio/)<br>
 
 
-2. You can find the URL of my GitHub repository that contains this code **here:** <br>[GitHub Repo - link](https://github.com/dinozio-design/20-My-React-Portfolio)
+
+2. You can find the URL of my GitHub repository that contains this code **here:** <br>[GitHub Repo - link: https://github.com/dinozio-design/20-My-React-Portfolio](https://github.com/dinozio-design/20-My-React-Portfolio)
 
 ### Authors Notes: 
   _This README and accompanying repo have been brought to you by:_<br>© Sam Azimi - 2023 CodeCamp Studen.<br>Confidential and Proprietary. All Rights Reserved.
