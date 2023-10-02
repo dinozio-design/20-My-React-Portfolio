@@ -34,7 +34,7 @@ const project = {
   title: 'ClotheStation - eCommerce',
   description: 'This is a group project. We built a comprehensive eComerce platform using MERN stack. It has not yet been deployed, we will be deploying it to Heroku soon. Stay tuned!',
   deployLink: 'https://github.com/cdelacruzzin/ClotheStation',
-  gitHubLink: 'https://github.com/cdelacruzzin/ClotheStation',
+  gitHubLink: 'https://urban-sk8-ef054e6c42c1.herokuapp.com/',
 }
 
 // In `Card`, we can assign a style from an object by using curly braces
